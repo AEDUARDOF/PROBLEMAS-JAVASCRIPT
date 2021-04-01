@@ -1,0 +1,64 @@
+
+
+.td_sup{
+    align-items: center;
+    justify-content: center;
+    background-color: #d44000;
+}
+.td_inf{
+    align-items: center;
+    justify-content: center;
+    background-color: #ff7a00;
+}
+.td_but {
+    align-items: center;
+    justify-content: center;
+    background-color: #583717;
+}
+
+.user_text{
+    align-items: center;
+    justify-content: center;
+    size: 16;
+    border-width: 2px;
+    border-style: solid;
+    color: #252524;
+    letter-spacing: 2px;
+    font-size: 15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input_text{
+    align-items: center;
+    justify-content: center;
+    size: 16;
+    border-width: 2px;
+    border-style: solid;
+    color: #009900;
+    letter-spacing: 2px;
+    font-size: 15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+*{
+    background-color: #86deff;
+}
+
+table{
+    margin-top: 10px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1;
+}
+p{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(192, 129, 46);
+}
