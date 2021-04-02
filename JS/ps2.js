@@ -47,5 +47,8 @@ function calcular(){
     Comi=Res*0.1;
     Neto=Comi+Su;
 
+    onkeypress="return validarn(event)"
+    onkeypress="return validarn(event)"
+
     document.formulario.sueldocom.value = "$"+Comi;
     document.formulario.sueldoneto.value = "$"+Neto;*/

@@ -7,11 +7,15 @@
     align-items: center;
     justify-content: center;
     background-color: #ff7a00;
+    padding-left: 25px;
+
 }
 .td_but {
     align-items: center;
     justify-content: center;
     background-color: #583717;
+    align-content:center;
+    padding-left: 50px;
 }
 
 .user_text{
@@ -27,25 +31,39 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 .input_text{
     align-items: center;
     justify-content: center;
     size: 16;
     border-width: 2px;
     border-style: solid;
-    color: #009900;
+    color: #045508;
     letter-spacing: 2px;
     font-size: 15px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+.input_text1{
+    align-items: center;
+    justify-content: center;
+    size: 16;
+    border-width: 2px;
+    border-style: solid;
+    color: #070707;
+    letter-spacing: 2px;
+    font-size: 25px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
 
 input{
     height: 20px;
     width: 100px;
-    background: rgb(109, 209, 240);
+    background: rgb(94, 211, 247);
     float: left;
 }
 
@@ -56,6 +74,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial;
+    background-repeat: repeat;
 }
 
 
@@ -66,6 +85,7 @@ table{
     margin-right: auto;
     border: 1;
     border-collapse: collapse;
+    border-radius: 20px;
 }
 p{
     font-size: 30px;
@@ -74,9 +94,16 @@ p{
     color: rgb(255, 254, 253);
 }
 
+h3{
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 254, 253);
+
+}
 a{
     font-size: 25px;
     align-items: center;
     justify-content: center;
-    color: rgb(27, 179, 199);
+    color: rgb(30, 42, 209);
 }

@@ -10,29 +10,56 @@ function validarn(e){
 
 
 function borrar(){
-    document.formulario.sueldoneto.value = "";
-    document.formulario.sueldocom.value = "";
-    document.formulario.valor.value = "";
-    document.formulario.venta1.value = "";
-    document.formulario.venta2.value = "";
-    document.formulario.venta3.value = "";
+    document.formulario.cparcial1.value = "";
+    document.formulario.cparcial2.value = "";
+    document.formulario.cparcial3.value = "";
+    document.formulario.cexamenfinal.value = "";
+    document.formulario.ctrabajofinal.value = "";
+    document.formulario.calificacionfinal.value = "";
 }
 
 function calcular(){
-    var Ve1=parseInt(document.getElementById('v1').value);
-    var Ve2=parseInt(document.getElementById('v2').value);
-    var Ve3=parseInt(document.getElementById('v3').value);
-    var Sue=parseInt(document.getElementById('sueldon').value);
+    var Par1=parseInt(document.getElementById('cp1').value);
+    var Par2=parseInt(document.getElementById('cp2').value);
+    var Par3=parseInt(document.getElementById('cp3').value);
+    var Exam=parseInt(document.getElementById('cef').value);
+    var Trabaj=parseInt(document.getElementById('ctf').value);
     var Sum;
-    Sum=Ve1+Ve2+Ve3;
-    var Comis;
-    Comis=Sum*0.1;
-    Net=Comis+Sue;
-    var NetD;
-    NetD=Net.toFixed(2);
-    var ComisD;
-    ComisD=Comis.toFixed(2);
+    Sum=Par1+Par2+Par3; 
+    var Prom;
+    Prom=Sum/3;
+    var AProm;
+    AProm=Prom*0.55;
+    var AExam;
+    AExam=Exam*0.30;
+    var ATrabaj;
+    ATrabaj=Trabaj*0.15;
+    Cali=AProm+AExam+ATrabaj;
+    var CaliD;
+    CaliD=Cali.toFixed(1);
 
-    document.formulario.sueldoneto.value ="$"+NetD;
-    document.formulario.sueldocom.value ="$"+ComisD;
+
+    if(Par1 > 10){
+        alert("Solo numeros menores o iguales a 10");
+        return false;
+    }
+    else if(Par2 > 10){
+        alert("Solo numeros menores o iguales a 10");
+        return false;
+    }
+    else if(Par3 > 10){
+        alert("Solo numeros menores o iguales a 10");
+        return false;
+    }
+    else if(Exam > 10){
+        alert("Solo numeros menores o iguales a 10");
+        return false;
+    }
+    else if(Trabaj > 10){
+        alert("Solo numeros menores o iguales a 10");
+        return false;
+    }
+    else{
+        document.formulario.calificacionfinal.value =""+CaliD;
+    }
 }

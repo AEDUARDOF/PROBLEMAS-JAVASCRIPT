@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problema 04 JS</title>
     <link rel="stylesheet" href="./CSS/problemas.css">
-    <script src="JS/ps2.js"></script>
+    <script src="JS/ps4.js"></script>
 </head>
 <body>
 <h1>
     <p>
-    Un vendedor recibe un sueldo base más un 10 % extra por comisión de sus ventas, el vendedor
-    desea saber cuánto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en
-    el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
+    Un alumno desea saber cual sera su calificacion final en la materia de Algoritmos<br>
+    Dicha calificacion se compone de los siguientes porcentajes:<br>
+    55% del promedio de sus tres calificaciones parciales<br>
+    30% de la calificaciondel examen final<br>
+    15% de la calificacion de un trabajo final
     </p>
 
     <form method="POST" name="formulario" >
@@ -49,18 +51,12 @@
                     name="resultado" onclick="calcular()"></td> 
             </tr>
             <tr>
-                <td class="td_sup" >El sueldo neto es de:</td>
-                <td class="td_inf" > <input type="text" name="sueldoneto"
+                <td class="td_sup" >La calificacion final es de:</td>
+                <td class="td_inf" > <input type="text" name="calificacionfinal"
                     id="cantidad" readonly="readonly" 
                     class="input_text" > </td>
             </tr>
-            <tr>
-                <td class="td_sup" >La ganancia de las comisiones es:</td>
-                <td class="td_inf"> <input type="text" name="sueldocom"
-                    id="cantidadi" readonly="readonly" 
-                    class="input_text" > </td>
-            </tr>
-            <tr>
+            <tr> 
                 <td class="td_but"></td>
                 <td class="td_but"> <input type="button" value="Borrar" 
                     name="reset" onclick="borrar()" ></td>
@@ -69,6 +65,10 @@
 
     </form>
     <br>
-    <a href="index.html">Regresar al menu</a>
+    <table>
+        <tr>
+            <td><a href="index.html">Regresar al menu</a></td>
+        </tr>
+    </table>
 </body>
 </html>
