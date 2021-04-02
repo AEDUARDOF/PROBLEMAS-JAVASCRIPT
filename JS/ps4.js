@@ -36,16 +36,3 @@ function calcular(){
     document.formulario.sueldoneto.value ="$"+NetD;
     document.formulario.sueldocom.value ="$"+ComisD;
 }
-
-/*var Ve2=parseInt(document.getElementsById('v2').value);
-    var Ve3=parseInt(document.getElementsById('v3').value);
-    var Su=parseInt(document.getElementsById('cantidad').value);
-    var Ve1=parseInt(document.getElementsById('v1').value);
-    var Res;
-    Res=Ve1+Ve2+Ve3;
-    var Comi;
-    Comi=Res*0.1;
-    Neto=Comi+Su;
-
-    document.formulario.sueldocom.value = "$"+Comi;
-    document.formulario.sueldoneto.value = "$"+Neto;*/

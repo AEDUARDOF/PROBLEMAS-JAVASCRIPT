@@ -1,5 +1,3 @@
-
-
 .td_sup{
     align-items: center;
     justify-content: center;
@@ -25,7 +23,7 @@
     color: #252524;
     letter-spacing: 2px;
     font-size: 15px;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,15 +37,27 @@
     color: #009900;
     letter-spacing: 2px;
     font-size: 15px;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-*{
-    background-color: #86deff;
+input{
+    height: 20px;
+    width: 100px;
+    background: rgb(109, 209, 240);
+    float: left;
 }
+
+
+body{
+    margin: 0;
+    background-image: url(vista2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+}
+
 
 table{
     margin-top: 10px;
@@ -55,10 +65,18 @@ table{
     margin-left: auto;
     margin-right: auto;
     border: 1;
+    border-collapse: collapse;
 }
 p{
     font-size: 30px;
     align-items: center;
     justify-content: center;
-    color: rgb(192, 129, 46);
+    color: rgb(255, 254, 253);
+}
+
+a{
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(27, 179, 199);
 }
